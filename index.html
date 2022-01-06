@@ -1,0 +1,96 @@
+<!--Practice-1-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Practice-4-->
+    <link rel="stylesheet" href="/css/alert.css">
+    <style>
+        /*Practice-2*/
+        h3{
+            color: blue;
+            text-align: center;
+        }
+
+        /*Prcatice-3*/
+
+        #main{
+            background-color: whitesmoke;
+            align-content: center;
+            margin: 30px; padding: 30px;
+        }
+
+        /*Practice-5*/
+
+        .cuadro{
+            height: 200px; width: 50%;
+            display: inline-block;
+        }
+
+        .cuadro__1{
+            background-color: blue;
+            animation: hola 5s linear infinite alternate;
+        }
+
+        .cuadro__2{
+            background-color: red;
+            animation: rotar 5s ease-in infinite alternate;
+        }
+
+        /*Practice-6*/
+
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+        }
+
+        /*Practice-7*/
+
+        .container{
+            margin: 20% auto;
+        }
+
+        .cuadro{
+            padding: 20px;
+            width: 40%;
+            border-radius: 50px;
+            border: #000 solid 1px;
+        }
+
+        /*Practice-8*/
+
+        @keyframes hola {
+            0%{
+                background-color: blue;
+            }
+            100%{
+                background-color: red;
+                transform: rotate(90deg);
+            }
+        }
+
+        @keyframes rotar {
+            0%{
+                background-color: red;
+                transform: rotate(90deg);
+            }
+            100%{
+                background-color: blue;    
+            }
+        }
+</style>
+</head>
+<body>
+    <!--Practice-2-->
+    <div id="main">
+        <h3>Let's style this website!</h3>
+    </div>
+    <!--Practice-5-->
+    <div class="container">
+        <div class="cuadro cuadro__1"></div>
+        <div class="cuadro cuadro__2"></div>
+    </div>
+</body>
+</html>
